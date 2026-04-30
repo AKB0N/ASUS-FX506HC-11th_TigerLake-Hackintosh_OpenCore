@@ -1,0 +1,5 @@
+{
+    "AMFIPass.kext/Contents/Info.plist": "eb3fda04c0e8c8ce0ef4cfc984dcfb771db6aee476d379bd4bc3b7a74a00e4e9",
+    "AMFIPass.kext/Contents/MacOS/AMFIPass": "4c35bc196d35c69b5f9dca83fe733801211c7828716f51585c7f5450039ca884",
+    "AMFIPass.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+}

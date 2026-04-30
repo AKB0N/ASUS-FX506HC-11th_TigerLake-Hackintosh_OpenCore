@@ -1,0 +1,6 @@
+{
+    "AppleALC.kext/Contents/Info.plist": "40c833ab275302a7bd3e4fbe026605439c77aa4630a46907ae6f5d56ae9beb17",
+    "AppleALC.kext/Contents/MacOS/AppleALC": "6bf3cbfef9bff200c1375952295103a29fc8f2c56644831b045c3dbc36b8ce93",
+    "AppleALCU.kext/Contents/Info.plist": "3b25b6ae69bf17e4708b438b03c68b0a35313c2e5acb1e377e156af3d0b37f3f",
+    "AppleALCU.kext/Contents/MacOS/AppleALCU": "f652244d2f4799db0a69b7ccf6a252bd0cc66e40bc4a19e1c9dfe2baad62eff0"
+}

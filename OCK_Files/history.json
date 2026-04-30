@@ -1,0 +1,110 @@
+[
+    {
+        "product_name": "Hardware-Sniffer-CLI.exe",
+        "id": 118400423,
+        "url": "https://github.com/lzhoang2801/Hardware-Sniffer/releases/download/2.0.6/Hardware-Sniffer-CLI.exe",
+        "sha256": "e0e89d8fdb7b13774429fd67062c270416eb06d336f902c1f4ff11060b5ff029"
+    },
+    {
+        "product_name": "Lilu",
+        "id": 299485462,
+        "url": "https://github.com/dortania/build-repo/releases/download/Lilu-0515f40/Lilu-1.7.3-RELEASE.zip",
+        "sha256": "261aebb9dc83adb6515c96405653f53c3c50b09c89babdb91fb41f7b33a1cd2a"
+    },
+    {
+        "product_name": "VirtualSMC",
+        "id": 307108846,
+        "url": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-b15991d/VirtualSMC-1.3.8-RELEASE.zip",
+        "sha256": "8e4e4c495a513236ac3e518516ee4db307fe1c523e0f8b9d6ab7781ad17ec904"
+    },
+    {
+        "product_name": "WhateverGreen",
+        "id": 248979881,
+        "url": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-bd6fb18/WhateverGreen-1.7.1-RELEASE.zip",
+        "sha256": "1a93e4065de4531469a1dc56eb24819cc3e913c77ce15573d474eac2f13185b1"
+    },
+    {
+        "product_name": "AppleALC",
+        "id": 299466155,
+        "url": "https://github.com/dortania/build-repo/releases/download/AppleALC-b31765e/AppleALC-1.9.8-RELEASE.zip",
+        "sha256": "0690d8a2c58caff381115c5a3b0417eca27a8465aa2b44efce74560be2e2ad84"
+    },
+    {
+        "product_name": "RealtekRTL8111",
+        "id": 130015132,
+        "url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/releases/download/2.4.2/RealtekRTL8111-V2.4.2.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "USBToolBox",
+        "id": 359051316,
+        "url": "https://github.com/USBToolBox/kext/releases/download/1.2.0/USBToolBox-1.2.0-RELEASE.zip",
+        "sha256": "c315a3a5acfd496dd97d0d19b4fbd1d487103d2fd541c5651583d4c9cebcfe07"
+    },
+    {
+        "product_name": "XHCI-unsupported",
+        "id": 185465401,
+        "url": "https://github.com/daliansky/OS-X-USB-Inject-All/releases/download/v0.8.0/XHCI-unsupported.kext.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "VoodooPS2",
+        "id": 259088392,
+        "url": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-7eab4a3/VoodooPS2Controller-2.3.8-RELEASE.zip",
+        "sha256": "4008968674f0fae549c656d9f55af3e689e0b335cb33b4484bf94ab237357016"
+    },
+    {
+        "product_name": "VoodooI2C",
+        "id": 265521941,
+        "url": "https://github.com/dortania/build-repo/releases/download/VoodooI2C-5c0c99c/release.zip",
+        "sha256": "2347e42fb09f2386b47f4c02b265441bc5f3cf344d1ff168daed93a6b6c411e3"
+    },
+    {
+        "product_name": "AsusSMC",
+        "id": 247360600,
+        "url": "https://github.com/hieplpvip/AsusSMC/releases/download/1.4.1/AsusSMC-1.4.1-RELEASE.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "NVMeFix",
+        "id": 232064609,
+        "url": "https://github.com/dortania/build-repo/releases/download/NVMeFix-4862220/NVMeFix-1.1.4-RELEASE.zip",
+        "sha256": "8c0c9b83f6f36db59a963ab91205a5d26aa9b368736b3b885ee8fa9ad90f6e9e"
+    },
+    {
+        "product_name": "ForgedInvariant",
+        "id": 451000406,
+        "url": "https://nightly.link/ChefKissInc/ForgedInvariant/workflows/main/master/Artifacts.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "AMFIPass",
+        "id": 926491527,
+        "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/raw/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.1-RELEASE.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "BrightnessKeys",
+        "id": 162368093,
+        "url": "https://github.com/dortania/build-repo/releases/download/BrightnessKeys-37bdf47/BrightnessKeys-1.0.4-RELEASE.zip",
+        "sha256": "8fc2be5041801cc4fbf481153034b975ed18e02af312d6316531ee859f764126"
+    },
+    {
+        "product_name": "ECEnabler",
+        "id": 225194974,
+        "url": "https://github.com/dortania/build-repo/releases/download/ECEnabler-29dcde7/ECEnabler-1.0.6-RELEASE.zip",
+        "sha256": "35bfa75eb35eab48b3fe0788271b4be8ba5521d09c793324c762ff88b3041e64"
+    },
+    {
+        "product_name": "RestrictEvents",
+        "id": 232065220,
+        "url": "https://github.com/dortania/build-repo/releases/download/RestrictEvents-9265e78/RestrictEvents-1.1.7-RELEASE.zip",
+        "sha256": "e5a8c15adeba9251be2709899214fe7fd847f6d38fca6c09adb65e9b2af64f0a"
+    },
+    {
+        "product_name": "OpenCorePkg",
+        "id": 312123401,
+        "url": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-1b56961/OpenCore-1.0.8-RELEASE.zip",
+        "sha256": "944c96b0cdcc3ecf5bf128aaf27535f9ee8c4e27dac27d53e99801789afd85d1"
+    }
+]

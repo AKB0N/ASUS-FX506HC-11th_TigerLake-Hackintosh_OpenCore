@@ -1,0 +1,13 @@
+{
+    "VoodooPS2Controller.kext/Contents/Info.plist": "efd52cefc719c8b02cd79586373f6ff9ddb5ba3c6d868badb7bdc5661a7eedae",
+    "VoodooPS2Controller.kext/Contents/MacOS/VoodooPS2Controller": "be6f3aa9dc88954462e422df78d8d7d129cb91b8fd03c4018ef04cc9f472e8f0",
+    "VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist": "4b613689d908142e19554ffd6a1524dc029ba4e0f3cc2b6a0e03d9d82777264d",
+    "VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput": "960a2b41616ad1a62fa6157e6a99c3d4d20e896b20dd7271ce2c6839cf725e31",
+    "VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/Info.plist": "a6be92bf43672c41ba33e5ccc88a1bea7500fc4a9b90f610373973c42457367b",
+    "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/MacOS/VoodooPS2Keyboard": "a1e4903278b2028da9fea8feeb911026fb029ed8164d947bd7481245ae86193b",
+    "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/Info.plist": "f38bc6fc7971523aa7c23e43536cc5b5ed8bc9a49c729673bab9b136634ef294",
+    "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/MacOS/VoodooPS2Mouse": "075be10067839c38366da4f8864a87506e0c5d0305f98e540cd30e6da9adacab",
+    "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/Info.plist": "0085ac2f31668cc074a2eb984174b7e787029d044be3ac17003b0e4de8df36d7",
+    "VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/MacOS/VoodooPS2Trackpad": "e42cd2f68ee472829051b1c1f2b503c6db33c006ee4035e5698d104fe3c20049"
+}
