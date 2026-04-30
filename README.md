@@ -3,13 +3,13 @@
 
 <!-- START shields -->
 <div>
-    <!-- downloads --><a href="https://github.com/RobyRew/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore/releases">
-        <img src="https://img.shields.io/github/downloads/RobyRew/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore/total" alt="downloads"/>
+    <!-- downloads --><a href="https://github.com/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore/releases">
+        <img src="https://img.shields.io/github/downloads/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore/total" alt="downloads"/>
     </a>
-    <!-- version --><a href="https://github.com/RobyRew/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore/releases/latest">
-        <img src="https://img.shields.io/github/release/RobyRew/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore.svg" alt="latest version"/>
+    <!-- version --><a href="https://github.com/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore/releases/latest">
+        <img src="https://img.shields.io/github/release/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore.svg" alt="latest version"/>
     </a>
-     <!-- platform --><a href="https://github.com/RobyRew/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore">
+     <!-- platform --><a href="https://github.com/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore">
         <img src="https://img.shields.io/badge/platform-macOS-lightgrey.svg" alt="platform"/>
     </a>
 </div>
