@@ -1,0 +1,6 @@
+{
+    "AirportBrcmFixup.kext/Contents/Info.plist": "69d54270e97296065ac0d5242c496a2906728f204f7f7fce3760d578c5370f18",
+    "AirportBrcmFixup.kext/Contents/MacOS/AirportBrcmFixup": "e5852fae37527a3b3f05b6ae62e8ba03353ba11e50ef453a0d286a0228a821e5",
+    "AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext/Contents/Info.plist": "b8a925d7bd0467bf3f60a45d1055775992b318d166e065556591dcc25326a4ea",
+    "AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext/Contents/Info.plist": "5276a26bed562a3f1365bb0c8ff598fedd50ca64a6ebe1b54a40c4334bd52265"
+}

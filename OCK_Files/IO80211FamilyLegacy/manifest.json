@@ -1,0 +1,8 @@
+{
+    "IO80211FamilyLegacy.kext/Contents/Info.plist": "e3db7231dce8d4bb5430785ccb6049ef3e329abbac4f6fcbc878a6a3a0792257",
+    "IO80211FamilyLegacy.kext/Contents/MacOS/IO80211FamilyLegacy": "ac2dc15b77f8eaf97b71b34c5d0e1b59f862bfeac618396449306e1837e73894",
+    "IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext/Contents/Info.plist": "545db395be05d1fa96c98e00fab1c8cacffa13e5f50ca832b6a5a79516d99514",
+    "IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext/Contents/version.plist": "8e2d967e744d35653ff29269a81cffc2b0aaf5b8ce65aef0886b5e60c798b0e1",
+    "IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext/Contents/MacOS/AirPortBrcmNIC": "884e90b27cff151e432bb36275936f57b43e72419e95b51b3ac067d3f2ccd331",
+    "IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext/Contents/_CodeSignature/CodeResources": "71f08f6b787d6691df97fe1a0ad0670ba8d1e37d022422074b4bcd4cfcd84bc5"
+}

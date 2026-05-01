@@ -73,7 +73,7 @@
     },
     {
         "product_name": "ForgedInvariant",
-        "id": 451000406,
+        "id": 474840712,
         "url": "https://nightly.link/ChefKissInc/ForgedInvariant/workflows/main/master/Artifacts.zip",
         "sha256": null
     },
@@ -106,5 +106,47 @@
         "id": 312123401,
         "url": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-1b56961/OpenCore-1.0.8-RELEASE.zip",
         "sha256": "944c96b0cdcc3ecf5bf128aaf27535f9ee8c4e27dac27d53e99801789afd85d1"
+    },
+    {
+        "product_name": "NootRX",
+        "id": 794126892,
+        "url": "https://nightly.link/ChefKissInc/NootRX/workflows/main/master/Artifacts.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "AirportBrcmFixup",
+        "id": 232062641,
+        "url": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-06f6e54/AirportBrcmFixup-2.2.1-RELEASE.zip",
+        "sha256": "ffdd0b66f2449fda7ac4921f0cd5c086de29a5bd46ee9404e5999c6cf2ad658b"
+    },
+    {
+        "product_name": "BrcmPatchRAM",
+        "id": 299484622,
+        "url": "https://github.com/dortania/build-repo/releases/download/BrcmPatchRAM-6538902/BrcmPatchRAM-2.7.3-RELEASE.zip",
+        "sha256": "71a4bdf9d0804f16f4f9a35f5b67288cd680eda44e4347cd60640f2e422299ea"
+    },
+    {
+        "product_name": "VoodooRMI",
+        "id": 245326284,
+        "url": "https://github.com/dortania/build-repo/releases/download/VoodooRMI-83868f0/VoodooRMI-1.4.3-RELEASE.zip",
+        "sha256": "4793dd2256c339b302102b69b9103c88ce198c159ef9aa49bc1849bda176ca79"
+    },
+    {
+        "product_name": "VoodooSMBus",
+        "id": 87828228,
+        "url": "https://github.com/dortania/build-repo/releases/download/VoodooSMBus-8fff9b9/release.zip",
+        "sha256": "15a9a1ba95e615afdabb0fe7bcb3f0b22188dd989560ed098d42dbf4020c445f"
+    },
+    {
+        "product_name": "IO80211FamilyLegacy",
+        "id": 817294638,
+        "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/raw/main/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "IOSkywalkFamily",
+        "id": 926584761,
+        "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/raw/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip",
+        "sha256": null
     }
 ]

@@ -20,12 +20,12 @@
         "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
     },
     "GPU": {
-        "Intel(R) HD Graphics 4600": {
+		"Intel(R) UHD Graphics 630": {
             "Manufacturer": "Intel",
-            "Codename": "Haswell",
-            "Device ID": "8086-0416",
+            "Codename": "Coffee Lake",
+            "Device ID": "8086-3E92",
             "Device Type": "Integrated GPU",
-            "Subsystem ID": "220E17AA",
+            "Subsystem ID": "7B281462",
             "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
             "ACPI Path": "\\_SB.PC00.GFX0",
             "Resizable BAR": "Disabled"
@@ -45,6 +45,10 @@
             "Subsystem ID": "208F1043",
             "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)",
             "ACPI Path": "\\_SB.PC00.RP15.PXSX"
+        },
+        "Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter": {
+            "Bus Type": "USB",
+            "Device ID": "0BDA-8179"
         },
         "MediaTek Wi-Fi 6 MT7921 Wireless LAN Card": {
             "Bus Type": "PCI",
@@ -129,6 +133,10 @@
         }
     },
     "Bluetooth": {
+        "TP-Link Bluetooth 5.4 USB Adapter": {
+            "Bus Type": "USB",
+            "Device ID": "2357-0604"
+        },
         "MediaTek Bluetooth Adapter": {
             "Bus Type": "USB",
             "Device ID": "13D3-3563"
@@ -225,9 +233,6 @@
             "Subsystem ID": "00000000",
             "PCI Path": "PciRoot(0x0)/Pci(0x14,0x2)"
         },
-        "Pixel Buds Hands-Free AG": {
-            "Bus Type": "BTHENUM"
-        },
         "Microsoft Hyper-V Virtualization Infrastructure Driver": {
             "Bus Type": "ROOT",
             "Device": "VID"
@@ -242,9 +247,6 @@
             "Device": "PNP0C04",
             "ACPI Path": "\\_SB.PC00.LPCB.MATH"
         },
-        "MI BT 18I Hands-Free AG": {
-            "Bus Type": "BTHENUM"
-        },
         "Composite Bus Enumerator": {
             "Bus Type": "ROOT",
             "Device": "COMPOSITEBUS"
@@ -252,9 +254,6 @@
         "Microsoft Virtual Drive Enumerator": {
             "Bus Type": "ROOT",
             "Device": "VDRVROOT"
-        },
-        "soundcore R50i Hands-Free AG": {
-            "Bus Type": "BTHENUM"
         },
         "Intel(R) GNA Scoring Accelerator module": {
             "Bus Type": "PCI",

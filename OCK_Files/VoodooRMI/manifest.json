@@ -1,0 +1,13 @@
+{
+    "VoodooRMI.kext/Contents/Info.plist": "139ac897ab35b11ffbad3d209be0addc65332c7a5b3203fcada7c29280532dcd",
+    "VoodooRMI.kext/Contents/MacOS/VoodooRMI": "4275d18fe11a070d1b1b9a8c797525510296d92913f15c2165b4485b2aa57163",
+    "VoodooRMI.kext/Contents/PlugIns/RMII2C.kext/Contents/Info.plist": "201ff4031d8f4f373b160e57f33221f33193a1b5de0f8a291afe465d7f15fb00",
+    "VoodooRMI.kext/Contents/PlugIns/RMII2C.kext/Contents/MacOS/RMII2C": "d05b0f29ce6e59678d26d65cf3db2f104e05ecf373f973296698690d5d1bb8a5",
+    "VoodooRMI.kext/Contents/PlugIns/RMII2C.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext/Contents/Info.plist": "1e6d676c60cd2d1172af51477b55494086bcbb069fe826c27bbf33871f43d2c4",
+    "VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext/Contents/MacOS/RMISMBus": "a5bce52f203ad5db0ff73e2c358ecfddd01ffc761f06faa1c40cbcc1283f9699",
+    "VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist": "4b613689d908142e19554ffd6a1524dc029ba4e0f3cc2b6a0e03d9d82777264d",
+    "VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput": "219d17f0e46efeb28a8c62a4d36dbc395b3f62b3c3c519f224f66d29da859504",
+    "VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+}

@@ -1,136 +1,171 @@
-# Hackintosh Guide for **Asus FX506HC**
-**This guide it's updated to OpenCore 0.8.8 and NOT YET tested on a friend's laptop on Ventura.**
+<br/>
+<div align="center">
+  <h3 align="center">OpCore Simplify</h3>
 
-<!-- START shields -->
-<div>
-    <!-- downloads --><a href="https://github.com/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore/releases">
-        <img src="https://img.shields.io/github/downloads/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore/total" alt="downloads"/>
-    </a>
-    <!-- version --><a href="https://github.com/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore/releases/latest">
-        <img src="https://img.shields.io/github/release/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore.svg" alt="latest version"/>
-    </a>
-     <!-- platform --><a href="https://github.com/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore">
-        <img src="https://img.shields.io/badge/platform-macOS-lightgrey.svg" alt="platform"/>
-    </a>
-</div>
-</br>
-<!-- END shields -->
-
-![Asus FX506HC running macOS Ventura](/Docs/Images/Asus-FX506HC-macOS.png)
-
-# Specifications
-Here's the [Amazon Link](https://www.amazon.com/ASUS-TUF-Gaming-F15-i5-11400H/dp/B0CCGDQZ1M) for this exact model.
-
-| Component | Name |
-|:--- |:---|
-| Motherboard:  | FX506HC **HM470** |
-| CPU: | **Intel** i5-11400H |
-| RAM: | **Samsung** M471A1G44AB0-CWE 16GB 3200MHz |
-| iGPU: | **Intel** Tiger Lake-H GT1 (Mobile) |
-| dGPU: | **nVidia** GeForce RTX 3050 Laptop (DISABLED) |
-| NVMe: | **SAMSUNG** MZVLQ512HBLU-00B00 |
-| WiFi/BT: | **MediaTek** MT7921 (Type CNVi) |
-| Audio: | **RealTek** ALC256 |
-| Ethernet: | **RealTek** RTL8168 |
-| Trackpad: | **ELAN1200** Precision TouchPad (Type HID) |
-| Keyboard: | PS/2 Keyboard (ISO Spain)|
-><strong>Note:</strong> The WiFi/BT Card needs to be replaced with a **BCM94352Z**  in order to have FULL Native Wirelless Features.
-
-# Working Status
- - ### **Fully Working**
-    - Built-In Display
-    - Jack 3.5mm, Speakers & Microphone
-    - DC-IN & Battery
-    - NVMe & HDD
-    - Camera
-    - Ethernet
-    - Keyboard
-
-
- - ### **Partially Working**
-    - [All USB Ports](/Docs/Images/Guide/Asus-FX506HC-layout.png) (Not mapped correctly YET)
-
-- ### **Not Working**
-    - dGPU *(nVidia RTX 3050 Laptop)*
-    - WiFi
-    - Bluetooth
-    - HDMI Port
-    - Continuity Features (Apple Ecosystem Fancy Things)
-    - Trackpad
-
----
-
-# GUIDE OF INSTALLATION
-<!-- BOOTABLE START -->
-<details open>
-<summary><h3>Making the Bootable USB</h3></summary>
-    <h3>From macOS:</h3>
-<p><a href="https://support.apple.com/en-us/HT201372"></a>Link to Apple's Guide</p>
-
-**Download installers:** [Ventura](https://apps.apple.com/us/app/macos-ventura/id1638787999) - [Monterrey](https://apps.apple.com/es/app/macos-monterey/id1576738294) - [Big Sur](https://itunes.apple.com/us/app/macos-big-sur/id1526878132) - [Catalina](https://itunes.apple.com/us/app/macos-catalina/id1466841314) - [Mojave](https://itunes.apple.com/us/app/macos-mojave/id1398502828) - [High Sierra](https://itunes.apple.com/us/app/macos-high-sierra/id1246284741)
-
-[(Alternative Download (Mr. Machintosh Post))](https://mrmacintosh.com/how-to-download-macos-catalina-mojave-or-high-sierra-full-installers/)
-
-1. Connect a >=16 GB pendrive.
-2. Open *Disk Utility* and Erase the USB with the name: *MyVolume*.
-3. Open *Terminal* and use the proper commands for your macOS installer:
-- Ventura: `sudo /Applications/Install\ macOS\ Ventura.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
-- Monterrey: `sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
-- Big Sur: `sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
-- Catalina: `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
-- Mojave: `sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
-- High Sierra: `sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
-
-![Terminal](/Docs/Images/Guide/BootableUSB.png)
-
-### From Windows:
-
-[**Link to Dortania's Guide**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos)
-
-### From Linux:
-
-[**Link to Dortania's Guide**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/linux-install.html)
-
- ---
-    
-</details>
-<!-- BOOTABLE END -->
-<!-- BIOS START -->
-<details open>
-<summary><h3>BIOS Settings</h3></summary>
- 
-- Make Sure you have [Latest BIOS v311]([https://www.asus.com/supportonly/FX504GE/HelpDesk_BIOS/](https://www.asus.com/supportonly/fx506hc/helpdesk_bios/))
-- After Updating the BIOS, you just need to **DISABLE** `Secure Boot`, and you are good to go.
----
- 
-</details>
-
-<!-- BIOS END -->
-
-<!-- POST-INSTALL START-->
-
-<details open>
-  <summary><h3>Post Installation</h3></summary>
- 
-Open Terminal.app and run those commands:
-~~~
-sudo pmset autopoweroff 0
-sudo pmset powernap 0
-sudo pmset standby 0
-sudo pmset proximitywake 0
-sudo pmset tcpkeepalive 0
-~~~
->These 5 commands help fixing possible Sleep/Wake Issues
+  <p align="center">
+    A specialized tool that streamlines <a href="https://github.com/acidanthera/OpenCorePkg">OpenCore</a> EFI creation by automating the essential setup process and providing standardized configurations. Designed to reduce manual effort while ensuring accuracy in your Hackintosh journey.
+    <br />
+    <br />
+    <a href="#-features">Features</a> •
+    <a href="#-how-to-use">How To Use</a> •
+    <a href="#-contributing">Contributing</a> •
+    <a href="#-license">License</a> •
+    <a href="#-credits">Credits</a> •
+    <a href="#-contact">Contact</a>
+  </p>
   
-~~~
-  - sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
-  - sudo rm /Library/Preferences/SystemConfiguration/preferences.plist
-~~~
->These 2 commands help fixing possible iCloud Ban/iMessages Ban or WiFi/Ethernet Issues (Use only if you want or need)
+  <p align="center">
+    <a href="https://trendshift.io/repositories/15410" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15410" alt="lzhoang2801%2FOpCore-Simplify | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  </p>
+</div>
 
----
+> [!NOTE]
+> **OpenCore Legacy Patcher 3.0.0 – Now Supports macOS Tahoe 26!**
+> 
+> The long awaited version 3.0.0 of OpenCore Legacy Patcher is here, bringing **initial support for macOS Tahoe 26** to the community!
+> 
+> 🚨 **Please Note:**  
+> - Only OpenCore-Patcher 3.0.0 **from the [lzhoang2801/OpenCore-Legacy-Patcher](https://github.com/lzhoang2801/OpenCore-Legacy-Patcher/releases/tag/3.0.0)** repository provides support for macOS Tahoe 26 with early patches.
+> - Official Dortania releases or older patches **will NOT work** with macOS Tahoe 26.  
 
-</details>
-<!-- POST-INSTALL END -->
+> [!WARNING]
+> While OpCore Simplify significantly reduces setup time, the Hackintosh journey still requires:
+> - Understanding basic concepts from the [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+> - Testing and troubleshooting during the installation process
+> - Patience and persistence in resolving any issues that arise
+>
+> Our tool does not guarantee a successful installation in the first attempt, but it should help you get started.
 
-If this guide has been useful for you, don't forget to give me a star ⭐️❤️
+## ✨ **Features**
+
+1. **Comprehensive Hardware and macOS Support**  
+   Fully supports modern hardware. Use `Compatibility Checker` to check supported/unsupported devices and macOS version supported.
+
+   | **Component**  | **Supported**                                                                                       |
+   |----------------|-----------------------------------------------------------------------------------------------------|
+   | **CPU**        | Intel: Nehalem and Westmere (1st Gen) → Arrow Lake (15th Gen/Core Ultra Series 2) <br> AMD: Ryzen and Threadripper with [AMD Vanilla](https://github.com/AMD-OSX/AMD_Vanilla) |
+   | **GPU**        | Intel iGPU: Iron Lake (1st Gen) → Ice Lake (10th Gen) <br> AMD APU: The entire Vega Raven ASIC family (Ryzen 1xxx → 5xxx, 7x30 series) <br> AMD dGPU: Navi 23, Navi 22, Navi 21 generations, and older series <br> NVIDIA: Kepler, Pascal, Maxwell, Fermi, Tesla generations |
+   | **macOS**      | macOS High Sierra → macOS Tahoe |
+
+2. **ACPI Patches and Kexts**  
+   Automatically detects and adds ACPI patches and kexts based on hardware configuration.
+   
+   - Integrated with [SSDTTime](https://github.com/corpnewt/SSDTTime) for common patches (e.g., FakeEC, FixHPET, PLUG, RTCAWAC).
+   - Includes custom patches:
+      - Prevent kernel panics by directing the first CPU entry to an active CPU, disabling the UNC0 device, and creating a new RTC device for HEDT systems.
+      - Disable unsupported or unused PCI devices, such as the GPU (using Optimus and Bumblebee methods or adding the disable-gpu property), Wi-Fi card, and NVMe storage controller.
+      - Fix sleep state values in _PRW methods (GPRW, UPRW, HP special) to prevent immediate wake.
+      - Add devices including ALS0, BUS0, MCHC, PMCR, PNLF, RMNE, IMEI, USBX, XOSI, along with a Surface Patch.
+      - Enable ALSD and GPI0 devices.
+
+3. **Automatic Updates**  
+    Automatically checks for and updates OpenCorePkg and kexts from [Dortania Builds](https://dortania.github.io/builds/) and GitHub releases before each EFI build.
+            
+4. **EFI Configuration**  
+   Apply additional customization based on both widely used sources and personal experience.
+
+   - Spoof GPU IDs for certain AMD GPUs not recognized in macOS.
+   - Use CpuTopologyRebuild kext for Intel CPUs with P-cores and E-cores to enhance performance.
+   - Disable System Integrity Protection (SIP).
+   - Spoof CPU IDs for Intel Pentium, Celeron, Core, and Xeon processors.
+   - Add custom CPU names for AMD CPUs, as well as Intel Pentium, Celeron, Xeon, and Core lines from the Rocket Lake (11th) generation and newer.
+   - Add a patch to allow booting macOS with unsupported SMBIOS.
+   - Add NVRAM entries to bypass checking the internal Bluetooth controller.
+   - Properly configure ResizeAppleGpuBars based on specific Resizable BAR information.
+   - Allow flexible iGPU configuration between headless and driving a display when a supported discrete GPU is present.
+   - Force Intel GPUs into VESA mode with HDMI and DVI connectors to simplify installation process.
+   - Provide configuration required for using OpenCore Legacy Patcher.
+   - Add built-in device property for network devices (fix 'Could not communicate with the server' when using iServices) and storage controllers (fix internal drives shown as external).
+   - Prioritize SMBIOS optimized for both power management and performance.
+   - Re-enable CPU power management on legacy Intel CPUs in macOS Ventura 13 and newer.
+   - Apply WiFi profiles for itlwm kext to enable auto WiFi connections at boot time.
+
+   and more...
+
+5. **Easy Customization**  
+   In addition to the default settings applied, users can easily make further customizations if desired.
+
+   - Custom ACPI patches, kexts, and SMBIOS adjustments (**not recommended**).
+   - Force load kexts on unsupported macOS versions.
+
+## 🚀 **How To Use**
+
+1. **Download OpCore Simplify**:
+   - Click **Code** → **Download ZIP**, or download directly via this [link](https://github.com/lzhoang2801/OpCore-Simplify/archive/refs/heads/main.zip).  
+   - Extract the downloaded ZIP file to your desired location.
+
+   ![Download OpCore Simplify](https://i.imgur.com/mcE7OSX.png)
+
+2. **Running OpCore Simplify**:
+   - On **Windows**, run `OpCore-Simplify.bat`.
+   - On **macOS**, run `OpCore-Simplify.command`.
+   - On **Linux**, run `OpCore-Simplify.py` with existing Python interpreter.
+
+   ![OpCore Simplify Menu](https://i.imgur.com/vTr1V9D.png)
+
+3. **Selecting hardware report**:
+   - On Windows, there will be an option for `E. Export hardware report`. It's recommended to use this for the best results with your hardware configuration and BIOS at the time of building.
+   - Alternatively, use [**Hardware Sniffer**](https://github.com/lzhoang2801/Hardware-Sniffer) to create a `Report.json` and ACPI dump for configuration manully.
+
+   ![Selecting hardware report](https://i.imgur.com/MbRmIGJ.png)
+
+   ![Loading ACPI Tables](https://i.imgur.com/SbL6N6v.png)
+
+   ![Compatibility Checker](https://i.imgur.com/kuDGMmp.png)
+
+4. **Selecting macOS Version and Customizing OpenCore EFI**:
+   - By default, the latest compatible macOS version will be selected for your hardware.
+   - OpCore Simplify will automatically apply essential ACPI patches and kexts. 
+   - You can manually review and customize these settings as needed.
+
+   ![OpCore Simplify Menu](https://i.imgur.com/TSk9ejy.png)
+
+5. **Building OpenCore EFI**:
+   - Once you've customized all options, select **Build OpenCore EFI** to generate your EFI.
+   - The tool will automatically download the necessary bootloader and kexts, which may take a few minutes.
+
+   ![WiFi Profile Extractor](https://i.imgur.com/71TkJkD.png)
+
+   ![Choosing Codec Layout ID](https://i.imgur.com/Mcm20EQ.png)
+
+   ![Building OpenCore EFI](https://i.imgur.com/deyj5de.png)
+
+6. **USB Mapping**:
+   - After building your EFI, follow the steps for mapping USB ports.
+
+   ![Results](https://i.imgur.com/MIPigPF.png)
+
+7. **Create USB and Install macOS**: 
+   - Use [**UnPlugged**](https://github.com/corpnewt/UnPlugged) on Windows to create a USB macOS installer, or follow [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html) for macOS.
+   - For troubleshooting, refer to the [OpenCore Troubleshooting Guide](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html).
+
+> [!NOTE]
+> 1. After a successful installation, if OpenCore Legacy Patcher is required, simply apply root patches to activate the missing features (such as modern Broadcom Wi-Fi card and graphics acceleration).
+> 
+> 2. For AMD GPUs, after applying root patches from OpenCore Legacy Patcher, you need to remove the boot argument `-radvesa`/`-amd_no_dgpu_accel` for graphics acceleration to work.
+
+## 🤝 **Contributing**
+
+Contributions are **highly appreciated**! If you have ideas to improve this project, feel free to fork the repo and create a pull request, or open an issue with the "enhancement" tag.
+
+Don't forget to ⭐ star the project! Thank you for your support! 🌟
+
+## 📜 **License**
+
+Distributed under the BSD 3-Clause License. See `LICENSE` for more information.
+
+## 🙌 **Credits**
+
+- [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and [kexts](https://github.com/lzhoang2801/OpCore-Simplify/blob/main/Scripts/datasets/kext_data.py) – The backbone of this project.
+- [SSDTTime](https://github.com/corpnewt/SSDTTime) – SSDT patching utilities.
+
+## 📞 **Contact**
+
+**Hoang Hong Quan**
+> Facebook [@macforce2601](https://facebook.com/macforce2601) &nbsp;&middot;&nbsp;
+> Telegram [@lzhoang2601](https://t.me/lzhoang2601) &nbsp;&middot;&nbsp;
+> Email: lzhoang2601@gmail.com
+
+## 🌟 **Star History**
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lzhoang2801/OpCore-Simplify&type=Date)](https://star-history.com/#lzhoang2801/OpCore-Simplify&Date)
