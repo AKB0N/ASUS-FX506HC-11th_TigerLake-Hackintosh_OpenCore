@@ -73,7 +73,7 @@
     },
     {
         "product_name": "ForgedInvariant",
-        "id": 474840712,
+        "id": 859920093,
         "url": "https://nightly.link/ChefKissInc/ForgedInvariant/workflows/main/master/Artifacts.zip",
         "sha256": null
     },
@@ -148,5 +148,41 @@
         "id": 926584761,
         "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/raw/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip",
         "sha256": null
+    },
+    {
+        "product_name": "itlwm",
+        "id": 731120524,
+        "url": "https://github.com/DexterSLamb/itlwm/releases/download/v2.3.0/itlwm-v2.3.0-65ae9ec.zip",
+        "sha256": "dbc5e986a5894a6effbaf4a67e90ef2376e771b583f48645ce04e9589ec1f8bb"
+    },
+    {
+        "product_name": "AlpsHID",
+        "id": 307141502,
+        "url": "https://github.com/blankmac/AlpsHID/releases/download/v1.2/AlpsHID1.2_release.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "VoodooInput",
+        "id": 195739103,
+        "url": "https://github.com/dortania/build-repo/releases/download/VoodooInput-d897813/VoodooInput-1.1.7-RELEASE.zip",
+        "sha256": "5a30a642afc59c7c87a11fc7d9c4d76509b059fa01fd3e058bd999fb30a76d65"
+    },
+    {
+        "product_name": "corecaptureElCap",
+        "id": 348147192,
+        "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/raw/refs/heads/main/payloads/Kexts/Wifi/corecaptureElCap-v1.0.2.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "IO80211ElCap",
+        "id": 128321732,
+        "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/raw/refs/heads/main/payloads/Kexts/Wifi/IO80211ElCap-v2.0.1.zip",
+        "sha256": null
+    },
+    {
+        "product_name": "IntelBluetoothFirmware",
+        "id": 295307078,
+        "url": "https://github.com/dortania/build-repo/releases/download/IntelBluetoothFirmware-a414375/IntelBluetoothFirmware-2.5.0-RELEASE.zip",
+        "sha256": "53a81964a2f7c2a20c885b8f327b4d427174f322c0094462df33eac8ecdc7ba1"
     }
 ]

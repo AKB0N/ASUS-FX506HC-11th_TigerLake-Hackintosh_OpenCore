@@ -35,7 +35,7 @@
         "NCP004D": {
             "Connector Type": "Internal",
             "Resolution": "1920x1080",
-            "Connected GPU": "Intel(R) UHD Graphics"
+            "Connected GPU": "Intel(R) UHD Graphics 630"
         }
     },
     "Network": {

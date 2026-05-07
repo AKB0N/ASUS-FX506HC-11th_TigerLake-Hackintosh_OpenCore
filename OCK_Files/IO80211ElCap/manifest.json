@@ -1,0 +1,10 @@
+{
+    "IO80211ElCap.kext/Contents/Info.plist": "146bf053eac7147373f37b90324f756607b3e70da8fda2690c5f5095c4b2ae57",
+    "IO80211ElCap.kext/Contents/MacOS/IO80211ElCap": "8ecd8f8a027d93205a493518c50a772f520ee774d2fa4d24b564dc67722c54b0",
+    "IO80211ElCap.kext/Contents/PlugIns/AirPortAtheros40.kext/Contents/Info.plist": "55b57985889131f9afe80b47269c1f2f691f1a00e36dae0ef1fd018fdb0fb00c",
+    "IO80211ElCap.kext/Contents/PlugIns/AirPortAtheros40.kext/Contents/MacOS/AirPortAtheros40": "fd80b0c0062c76418c868268b5dd18ef3bcaa5446788b57604a8cd7ebbf28097",
+    "IO80211ElCap.kext/Contents/PlugIns/AirPortBrcm4331.kext/Contents/Info.plist": "828a57536a38dd7dc25b015c031160a0f86dde48b88d3ce9c439889068efe822",
+    "IO80211ElCap.kext/Contents/PlugIns/AirPortBrcm4331.kext/Contents/MacOS/AirPortBrcm4331": "c5baef22eca03600ad255ac034d825d4a251b0538596a50ac92f845b2c86e62e",
+    "IO80211ElCap.kext/Contents/PlugIns/AppleAirPortBrcm43224.kext/Contents/Info.plist": "9a9aa03d35e1c482e707e0927902d69540cc3e2e42c9c4bf6b1adf7bddf5a07f",
+    "IO80211ElCap.kext/Contents/PlugIns/AppleAirPortBrcm43224.kext/Contents/MacOS/AppleAirPortBrcm43224": "fcbc111f3aa0d27bc61f17b558f5bcbaa6a8aa3d1d9370bed6eea9be4c9ce165"
+}

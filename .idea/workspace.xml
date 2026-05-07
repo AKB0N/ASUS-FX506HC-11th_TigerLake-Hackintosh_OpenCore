@@ -4,8 +4,35 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96c64a31-27cc-4072-9966-db1e244b7ce2" name="Changes" comment="edit">
+    <list default="true" id="96c64a31-27cc-4072-9966-db1e244b7ce2" name="Changes" comment="Transition to OpCore Simplify, update license to BSD-3-Clause, and refine OpenCore configuration logic.&#10;&#10;* **Project Rebrand:** Updated `README.md` and project structure to transition from a specific laptop repository to the &quot;OpCore Simplify&quot; tool.&#10;* **Configuration:** &#10;    * Set `PickerMode` to `Builtin` and updated `HideAuxiliary` settings.&#10;    * Updated iGPU and Audio `DeviceProperties` in `config.plist`.&#10;    * Refined NVRAM variables and delete keys for better compatibility.&#10;* **Kext Management:** &#10;    * Changed kext architecture from `x86_64` to `Any` in scripts and `config.plist`.&#10;    * Added support for `IOSkywalkFamily` and Broadcom-related kexts.&#10;* **ACPI:** Updated SSDT inclusions and removed legacy renames.&#10;* **Legal:** Changed license from MIT to BSD 3-Clause.&#10;* **Data:** Updated `history.json` and `Report.json` with new hardware and kext definitions.">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCK_Files/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/OCK_Files/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/MacOS/VoodooI2C" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/MacOS/VoodooI2C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/MacOS/VoodooGPIO" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/MacOS/VoodooGPIO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/MacOS/VoodooI2CServices" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/MacOS/VoodooI2CServices" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2CHID.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2CHID.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2CHID.kext/Contents/MacOS/VoodooI2CHID" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooI2CHID.kext/Contents/MacOS/VoodooI2CHID" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/MacOS/VoodooPS2Controller" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/MacOS/VoodooPS2Controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/MacOS/VoodooPS2Keyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/MacOS/VoodooPS2Keyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/MacOS/VoodooPS2Mouse" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/MacOS/VoodooPS2Mouse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/MacOS/VoodooPS2Trackpad" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/MacOS/VoodooPS2Trackpad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/WhateverGreen.kext/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/WhateverGreen.kext/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/Kexts/WhateverGreen.kext/Contents/MacOS/WhateverGreen" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/Kexts/WhateverGreen.kext/Contents/MacOS/WhateverGreen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/EFI/OC/config.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Results/EFI/OC/config.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SysReport/ACPI/SSDT-XOSI.aml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SysReport/Report.json" beforeDir="false" afterPath="$PROJECT_DIR$/SysReport/Report.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,43 +45,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AKB0N"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AKB0N&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AKB0N/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore.git",
-    "accountId": "a5569eee-cea6-499c-aaeb-ed13cdfce4b9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AKB0N/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore.git&quot;,
+    &quot;accountId&quot;: &quot;a5569eee-cea6-499c-aaeb-ed13cdfce4b9&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3D5zibIVhyY3wxbjTDYYME2Y1L9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Work/Projects/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore",
-    "settings.editor.selected.configurable": "com.android.studio.ml.McpConfigurable",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Work/Projects/AKBON/ASUS-FX506HC-11th_TigerLake-Hackintosh_OpenCore&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.android.studio.ml.McpConfigurable&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="96c64a31-27cc-4072-9966-db1e244b7ce2" name="Changes" comment="" />
@@ -71,11 +99,20 @@
       <option name="project" value="LOCAL" />
       <updated>1777589554710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Transition to OpCore Simplify, update license to BSD-3-Clause, and refine OpenCore configuration logic.&#10;&#10;* **Project Rebrand:** Updated `README.md` and project structure to transition from a specific laptop repository to the &quot;OpCore Simplify&quot; tool.&#10;* **Configuration:** &#10;    * Set `PickerMode` to `Builtin` and updated `HideAuxiliary` settings.&#10;    * Updated iGPU and Audio `DeviceProperties` in `config.plist`.&#10;    * Refined NVRAM variables and delete keys for better compatibility.&#10;* **Kext Management:** &#10;    * Changed kext architecture from `x86_64` to `Any` in scripts and `config.plist`.&#10;    * Added support for `IOSkywalkFamily` and Broadcom-related kexts.&#10;* **ACPI:** Updated SSDT inclusions and removed legacy renames.&#10;* **Legal:** Changed license from MIT to BSD 3-Clause.&#10;* **Data:** Updated `history.json` and `Report.json` with new hardware and kext definitions.">
+      <option name="closed" value="true" />
+      <created>1777609859192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777609859192</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+    <MESSAGE value="Transition to OpCore Simplify, update license to BSD-3-Clause, and refine OpenCore configuration logic.&#10;&#10;* **Project Rebrand:** Updated `README.md` and project structure to transition from a specific laptop repository to the &quot;OpCore Simplify&quot; tool.&#10;* **Configuration:** &#10;    * Set `PickerMode` to `Builtin` and updated `HideAuxiliary` settings.&#10;    * Updated iGPU and Audio `DeviceProperties` in `config.plist`.&#10;    * Refined NVRAM variables and delete keys for better compatibility.&#10;* **Kext Management:** &#10;    * Changed kext architecture from `x86_64` to `Any` in scripts and `config.plist`.&#10;    * Added support for `IOSkywalkFamily` and Broadcom-related kexts.&#10;* **ACPI:** Updated SSDT inclusions and removed legacy renames.&#10;* **Legal:** Changed license from MIT to BSD 3-Clause.&#10;* **Data:** Updated `history.json` and `Report.json` with new hardware and kext definitions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Transition to OpCore Simplify, update license to BSD-3-Clause, and refine OpenCore configuration logic.&#10;&#10;* **Project Rebrand:** Updated `README.md` and project structure to transition from a specific laptop repository to the &quot;OpCore Simplify&quot; tool.&#10;* **Configuration:** &#10;    * Set `PickerMode` to `Builtin` and updated `HideAuxiliary` settings.&#10;    * Updated iGPU and Audio `DeviceProperties` in `config.plist`.&#10;    * Refined NVRAM variables and delete keys for better compatibility.&#10;* **Kext Management:** &#10;    * Changed kext architecture from `x86_64` to `Any` in scripts and `config.plist`.&#10;    * Added support for `IOSkywalkFamily` and Broadcom-related kexts.&#10;* **ACPI:** Updated SSDT inclusions and removed legacy renames.&#10;* **Legal:** Changed license from MIT to BSD 3-Clause.&#10;* **Data:** Updated `history.json` and `Report.json` with new hardware and kext definitions." />
   </component>
 </project>

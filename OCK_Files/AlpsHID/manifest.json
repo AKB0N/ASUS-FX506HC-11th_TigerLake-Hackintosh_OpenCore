@@ -1,0 +1,8 @@
+{
+    "AlpsHID.kext/Contents/Info.plist": "53d6e179965a54a0bc3b85c08ce531af91386c8d31678989609af3be49213727",
+    "AlpsHID.kext/Contents/MacOS/AlpsHID": "ed8e458b559e06893b84ce6551ee7d31c7e7217233b19fbb40f70d6f7b46d580",
+    "AlpsHID.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+    "VoodooI2CHID.kext/Contents/Info.plist": "e5fdc63a227f96af0b2b59db2a6b11adaba453b2566399698f613cf637a0025f",
+    "VoodooI2CHID.kext/Contents/MacOS/VoodooI2CHID": "93c345b52475607c3677b4508723ea120b589c17f137f5c6e238ec5c7768c877",
+    "VoodooI2CHID.kext/Contents/_CodeSignature/CodeResources": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+}
